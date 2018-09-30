@@ -1,4 +1,5 @@
 #Introduction about CEPH
+
 A Ceph cluster on Raspberry Pi is an awesome way to create a RADOS home storage solution (NAS) that is highly redundant and low power usage. It’s also a low cost way to get into Ceph, which may or may not be the future of storage (software defined storage definitely is as a whole). Ceph on ARM is an interesting idea in and of itself. 
 
 # To Burn
@@ -19,7 +20,7 @@ Refer to the downloads page for the latest pre-made installers for all supported
 
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
 
-    Update and install:
+  #Update and install:
 
     sudo apt-get update
     sudo apt-get install etcher-electron
@@ -40,7 +41,7 @@ sudo apt-get update
 
     sudo yum install -y etcher-electron
 
-    or
+  #or
 
     sudo dnf install -y etcher-electron
 
